@@ -4,7 +4,7 @@ This is a minimal template repo for [eframe](https://github.com/emilk/egui/tree/
 
 ## Getting started
 
-Start by clicking "Use this template" at the top left. Clone and open it in your favorite code editor.
+Start by clicking "Use this template" at the top right. Clone and open it in your favorite code editor.
 
 ### Learning about egui
 
