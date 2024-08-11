@@ -1,13 +1,8 @@
-# Mac stuff:
-.DS_Store
-
-# trunk output folder
-dist
-
-# Rust compile target directories:
 target
-target_ra
-target_wasm
+Cargo.lock
 
-# https://github.com/lycheeverse/lychee
-.lycheecache
+.idea
+.vscode
+
+desktop.ini
+.DS_Store
