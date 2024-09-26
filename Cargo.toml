@@ -1,7 +1,12 @@
 [package]
-name = "eframe_template"
+name = "RustWebTest"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-eframe = { version = "*", default-features = false, features = ["glow", "default_fonts"] }
+eframe = { version = "0.28.1", features = ["glow", "default_fonts"], default-features = false }
+log = "0.4.22"
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen-futures = "0.4"
+web-sys = "0.3.70"
